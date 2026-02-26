@@ -1453,5 +1453,199 @@
         ]
       }
     ]
+  },
+  {
+    "id": "cancelado",
+    "icon": "💀",
+    "name": "Humor Negro / Cancelado",
+    "items": [
+      {
+        "word": "Robo a mano armada",
+        "clues": [
+          "Motochorro",
+          "Caño",
+          "Celular",
+          "Billetera"
+        ]
+      },
+      {
+        "word": "Política Argentina",
+        "clues": [
+          "Corrupción",
+          "Inflación",
+          "Sobres",
+          "Promesas"
+        ]
+      },
+      {
+        "word": "Inseguridad",
+        "clues": [
+          "Rejas",
+          "Parada",
+          "Miedo",
+          "Noche"
+        ]
+      },
+      {
+        "word": "Funeral",
+        "clues": [
+          "Cajón",
+          "Flores",
+          "Llantos",
+          "Herencia"
+        ]
+      },
+      {
+        "word": "Sugar Daddy",
+        "clues": [
+          "Viejo",
+          "Plata",
+          "Mantenida",
+          "Regalos"
+        ]
+      },
+      {
+        "word": "Cuernos",
+        "clues": [
+          "Infidelidad",
+          "Gorreado",
+          "Amante",
+          "Secreto"
+        ]
+      },
+      {
+        "word": "Borracho pesado",
+        "clues": [
+          "Vómito",
+          "Papelón",
+          "Gritos",
+          "Amnesia"
+        ]
+      },
+      {
+        "word": "Ex Tóxico/a",
+        "clues": [
+          "Revisar",
+          "Celos",
+          "Llamadas",
+          "Volver"
+        ]
+      },
+      {
+        "word": "Operación Estética Baja Calidad",
+        "clues": [
+          "Labios",
+          "Botox",
+          "Arrepentimiento",
+          "Desastre"
+        ]
+      },
+      {
+        "word": "Secta",
+        "clues": [
+          "Líder",
+          "Lavado",
+          "Plata",
+          "Encierro"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "boliche",
+    "icon": "🪩",
+    "name": "Chamuyo en el Boliche",
+    "items": [
+      {
+        "word": "Tirar Facha",
+        "clues": [
+          "Espejo",
+          "Perfume",
+          "Ropa",
+          "Mirada"
+        ]
+      },
+      {
+        "word": "Rebote",
+        "clues": [
+          "Ignorado",
+          "No",
+          "Amiga",
+          "Vergüenza"
+        ]
+      },
+      {
+        "word": "El VIP",
+        "clues": [
+          "Pulsera",
+          "Champagne",
+          "Sillones",
+          "Gasto"
+        ]
+      },
+      {
+        "word": "El Patovica",
+        "clues": [
+          "Puerta",
+          "Gigante",
+          "Zapatillas",
+          "Filtro"
+        ]
+      },
+      {
+        "word": "Trago Armando",
+        "clues": [
+          "Hielo",
+          "Mezcla",
+          "Vaso",
+          "Fuerte"
+        ]
+      },
+      {
+        "word": "Chapar en el medio",
+        "clues": [
+          "Beso",
+          "Aprete",
+          "Oscuridad",
+          "Pista"
+        ]
+      },
+      {
+        "word": "Chamuyo Barato",
+        "clues": [
+          "Frase",
+          "Armado",
+          "Básico",
+          "Mentira"
+        ]
+      },
+      {
+        "word": "La Previa",
+        "clues": [
+          "Casa",
+          "Hielo",
+          "Música",
+          "Tarde"
+        ]
+      },
+      {
+        "word": "Perder a los amigos",
+        "clues": [
+          "Búsqueda",
+          "Baño",
+          "Solo",
+          "Mensajes"
+        ]
+      },
+      {
+        "word": "Irse al After",
+        "clues": [
+          "Amanecer",
+          "Anteojos",
+          "Seguirla",
+          "Manija"
+        ]
+      }
+    ]
   }
 ]
