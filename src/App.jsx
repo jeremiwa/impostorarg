@@ -219,80 +219,92 @@ export default function App() {
 
       {currentScreen === SCREENS.REVEAL && (
         <div className="glass-panel fade-enter" style={{ textAlign: 'center' }}>
-          <h2 style={{ marginBottom: '10px' }}>Tu Turno</h2>
-          <p style={{ color: 'var(--text-secondary)', marginBottom: '15px', fontSize: '1.2rem' }}>
-            Categoría: <strong style={{ color: 'var(--accent-alt)' }}>{currentCategoryName}</strong>
-          </p>
-          <p style={{ color: 'var(--text-secondary)', marginBottom: '20px', fontSize: '0.9rem' }}>
-            Mantené apretado tu nombre para ver tu rol en secreto. Que nadie espíe 👀
-          </p>
+          {!revealingPlayer ? (
+            <>
+              <h2 style={{ marginBottom: '10px' }}>Tu Turno</h2>
+              <p style={{ color: 'var(--text-secondary)', marginBottom: '15px', fontSize: '1.2rem' }}>
+                Categoría: <strong style={{ color: 'var(--accent-alt)' }}>{currentCategoryName}</strong>
+              </p>
+              <p style={{ color: 'var(--text-secondary)', marginBottom: '20px', fontSize: '0.9rem' }}>
+                Tocá tu nombre para ver tu rol en secreto. <br />⚠️ <strong>¡Solo se puede ver una vez!</strong>
+              </p>
 
-          <div style={{ display: 'grid', gridTemplateColumns: '1fr 1fr', gap: '15px', marginBottom: '30px' }}>
-            {assignedRoles.map((role) => {
-              const isPressing = revealingPlayer === role.playerName;
-              const hasSeen = seenPlayers.includes(role.playerName);
+              <div style={{ display: 'grid', gridTemplateColumns: '1fr 1fr', gap: '15px', marginBottom: '30px' }}>
+                {assignedRoles.map((role) => {
+                  const hasSeen = seenPlayers.includes(role.playerName);
 
-              return (
-                <button
-                  key={role.playerName}
-                  className={`btn-${hasSeen && !isPressing ? 'secondary' : 'primary'}`}
-                  style={{
-                    padding: '10px',
-                    fontSize: isPressing ? '1rem' : '1.3rem',
-                    height: '110px',
-                    display: 'flex',
-                    flexDirection: 'column',
-                    justifyContent: 'center',
-                    alignItems: 'center',
-                    userSelect: 'none',
-                    WebkitUserSelect: 'none',
-                    opacity: hasSeen && !isPressing ? 0.7 : 1,
-                    transition: 'all 0.2s ease',
-                    wordBreak: 'break-word',
-                  }}
-                  onPointerDown={() => setRevealingPlayer(role.playerName)}
-                  onPointerUp={() => {
-                    setRevealingPlayer(null);
-                    if (!seenPlayers.includes(role.playerName)) {
-                      setSeenPlayers([...seenPlayers, role.playerName]);
-                    }
-                  }}
-                  onPointerLeave={() => {
-                    if (revealingPlayer === role.playerName) {
-                      setRevealingPlayer(null);
-                      if (!seenPlayers.includes(role.playerName)) {
-                        setSeenPlayers([...seenPlayers, role.playerName]);
-                      }
-                    }
-                  }}
-                >
-                  {isPressing ? (
-                    <div className="fade-enter" style={{ pointerEvents: 'none' }}>
-                      <span style={{ fontSize: '0.8rem', color: role.isImpostor ? 'var(--accent-alt)' : '#fff', marginBottom: '5px', display: 'block' }}>
-                        {role.isImpostor ? 'Tu pista:' : 'Palabra:'}
-                      </span>
-                      <strong style={{ color: role.isImpostor ? 'var(--accent-alt)' : 'var(--accent-neon)', fontSize: '1.3rem', lineHeight: '1.1' }}>
-                        {role.word}
-                      </strong>
-                    </div>
-                  ) : (
-                    <div style={{ pointerEvents: 'none' }}>
-                      {hasSeen && <Check size={16} style={{ display: 'block', margin: '0 auto 5px', opacity: 0.5 }} />}
-                      {role.playerName}
-                    </div>
-                  )}
-                </button>
-              );
-            })}
-          </div>
+                  return (
+                    <button
+                      key={role.playerName}
+                      className={`btn-${hasSeen ? 'secondary' : 'primary'}`}
+                      style={{
+                        padding: '10px',
+                        fontSize: '1.3rem',
+                        height: '110px',
+                        display: 'flex',
+                        flexDirection: 'column',
+                        justifyContent: 'center',
+                        alignItems: 'center',
+                        opacity: hasSeen ? 0.5 : 1,
+                        cursor: hasSeen ? 'not-allowed' : 'pointer',
+                        transition: 'all 0.2s ease',
+                      }}
+                      onClick={() => !hasSeen && setRevealingPlayer(role.playerName)}
+                      disabled={hasSeen}
+                    >
+                      <div style={{ pointerEvents: 'none' }}>
+                        {hasSeen && <Check size={20} style={{ display: 'block', margin: '0 auto 5px', color: 'var(--accent-neon)' }} />}
+                        {role.playerName}
+                      </div>
+                    </button>
+                  );
+                })}
+              </div>
 
-          <button
-            className="btn-primary"
-            onClick={() => setCurrentScreen(SCREENS.DISCUSSION)}
-            style={{ width: '100%', opacity: seenPlayers.length === players.length ? 1 : 0.5 }}
-          >
-            Todos listos <Play size={20} style={{ display: 'inline', verticalAlign: 'middle', marginLeft: '5px' }} />
-          </button>
+              <button
+                className="btn-primary"
+                onClick={() => setCurrentScreen(SCREENS.DISCUSSION)}
+                style={{ width: '100%', opacity: seenPlayers.length === players.length ? 1 : 0.5 }}
+              >
+                Todos listos <Play size={20} style={{ display: 'inline', verticalAlign: 'middle', marginLeft: '5px' }} />
+              </button>
+            </>
+          ) : (
+            <div className="fade-enter" style={{ display: 'flex', flexDirection: 'column', alignItems: 'center', justifyContent: 'center', minHeight: '40vh' }}>
+              <h1 style={{ color: 'var(--accent-neon)', fontSize: '3rem', marginBottom: '10px' }}>
+                {revealingPlayer}
+              </h1>
+              <p style={{ fontSize: '1.2rem', marginBottom: '10px', color: 'var(--text-secondary)' }}>
+                {assignedRoles.find(r => r.playerName === revealingPlayer)?.isImpostor ? 'Tu pista secreta es:' : 'Tu palabra es:'}
+              </p>
+              <h2 style={{ fontSize: '3rem', color: assignedRoles.find(r => r.playerName === revealingPlayer)?.isImpostor ? 'var(--accent-alt)' : 'var(--accent-neon)', marginBottom: '20px' }}>
+                {assignedRoles.find(r => r.playerName === revealingPlayer)?.word}
+              </h2>
+              {assignedRoles.find(r => r.playerName === revealingPlayer)?.isImpostor && (
+                <p style={{ color: 'var(--accent-alt)', fontWeight: 'bold', marginBottom: '30px', fontSize: '1.2rem' }}>
+                  <Skull size={20} style={{ display: 'inline', verticalAlign: 'middle' }} /> ¡SOS EL IMPOSTOR!
+                </p>
+              )}
+
+              <p style={{ color: 'var(--accent-alt)', fontSize: '0.9rem', marginBottom: '20px' }}>
+                Memorizá bien esto porque no vas a poder volver a verlo.
+              </p>
+
+              <button
+                className="btn-secondary"
+                style={{ width: '100%', padding: '20px', fontSize: '1.2rem' }}
+                onClick={() => {
+                  if (!seenPlayers.includes(revealingPlayer)) {
+                    setSeenPlayers([...seenPlayers, revealingPlayer]);
+                  }
+                  setRevealingPlayer(null);
+                }}
+              >
+                <Check size={24} style={{ display: 'inline', verticalAlign: 'middle', marginRight: '10px' }} />
+                Ya lo vi, volver
+              </button>
+            </div>
+          )}
         </div>
       )}
 
