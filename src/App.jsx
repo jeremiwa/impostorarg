@@ -274,6 +274,12 @@ export default function App() {
               <h1 style={{ color: 'var(--accent-neon)', fontSize: '3rem', marginBottom: '10px' }}>
                 {revealingPlayer}
               </h1>
+
+              <div style={{ background: 'rgba(255,255,255,0.05)', padding: '10px 20px', borderRadius: '10px', marginBottom: '20px' }}>
+                <p style={{ color: 'var(--text-secondary)', fontSize: '1rem', marginBottom: '5px' }}>Categoría:</p>
+                <p style={{ color: 'var(--accent-alt)', fontSize: '1.4rem', fontWeight: 'bold' }}>{currentCategoryName}</p>
+              </div>
+
               <p style={{ fontSize: '1.2rem', marginBottom: '10px', color: 'var(--text-secondary)' }}>
                 {assignedRoles.find(r => r.playerName === revealingPlayer)?.isImpostor ? 'Tu pista secreta es:' : 'Tu palabra es:'}
               </p>
