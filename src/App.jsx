@@ -17,8 +17,8 @@ export default function App() {
   // Game State
   const [activeCategories, setActiveCategories] = useState([]);
   const [assignedRoles, setAssignedRoles] = useState([]);
-  const [currentPlayerRevealIndex, setCurrentPlayerRevealIndex] = useState(0);
-  const [isRevealing, setIsRevealing] = useState(false);
+  const [revealingPlayer, setRevealingPlayer] = useState(null);
+  const [seenPlayers, setSeenPlayers] = useState([]);
   const [currentCategoryName, setCurrentCategoryName] = useState('');
   const [startingPlayer, setStartingPlayer] = useState('');
   const [numImpostors, setNumImpostors] = useState(1);
@@ -99,25 +99,18 @@ export default function App() {
     setAssignedRoles(roles);
     setCurrentCategoryName(category.name);
     setStartingPlayer(players[Math.floor(Math.random() * players.length)]);
-    setCurrentPlayerRevealIndex(0);
+    setRevealingPlayer(null);
+    setSeenPlayers([]);
     setCurrentScreen(SCREENS.REVEAL);
-  };
-
-  const nextReveal = () => {
-    setIsRevealing(false);
-    if (currentPlayerRevealIndex < players.length - 1) {
-      setCurrentPlayerRevealIndex(prev => prev + 1);
-    } else {
-      setCurrentScreen(SCREENS.DISCUSSION);
-    }
   };
 
   const resetGame = () => {
     setAssignedRoles([]);
     setCurrentCategoryName('');
     setStartingPlayer('');
-    setCurrentPlayerRevealIndex(0);
-    setIsRevealing(false);
+    setRevealingPlayer(null);
+    setSeenPlayers([]);
+    setVotingResults(null);
     setCurrentScreen(SCREENS.SETUP);
   };
 
@@ -226,57 +219,80 @@ export default function App() {
 
       {currentScreen === SCREENS.REVEAL && (
         <div className="glass-panel fade-enter" style={{ textAlign: 'center' }}>
-          <h2 style={{ marginBottom: '10px' }}>Pasale el celu a</h2>
-          <h1 style={{ color: 'var(--accent-neon)', fontSize: '3rem', marginBottom: '10px' }}>
-            {assignedRoles[currentPlayerRevealIndex].playerName}
-          </h1>
-          <p style={{ color: 'var(--text-secondary)', marginBottom: '30px', fontSize: '1.2rem' }}>
+          <h2 style={{ marginBottom: '10px' }}>Tu Turno</h2>
+          <p style={{ color: 'var(--text-secondary)', marginBottom: '15px', fontSize: '1.2rem' }}>
             Categoría: <strong style={{ color: 'var(--accent-alt)' }}>{currentCategoryName}</strong>
           </p>
+          <p style={{ color: 'var(--text-secondary)', marginBottom: '20px', fontSize: '0.9rem' }}>
+            Mantené apretado tu nombre para ver tu rol en secreto. Que nadie espíe 👀
+          </p>
 
-          {!isRevealing ? (
-            <div style={{ display: 'flex', flexDirection: 'column', alignItems: 'center', gap: '20px' }}>
-              <p style={{ color: 'var(--text-secondary)' }}>Asegurate que nadie esté espiando la pantalla.</p>
-              <button
-                className="btn-primary"
-                onPointerDown={() => setIsRevealing(true)}
-                onPointerUp={() => setIsRevealing(false)}
-                onPointerLeave={() => setIsRevealing(false)}
-                style={{
-                  padding: '30px 20px',
-                  fontSize: '1.2rem',
-                  display: 'flex',
-                  flexDirection: 'column',
-                  alignItems: 'center',
-                  gap: '10px',
-                  userSelect: 'none',
-                  WebkitUserSelect: 'none'
-                }}
-              >
-                <Eye size={32} />
-                MANTENÉ APRETADO PARA VER TU ROL
-              </button>
-            </div>
-          ) : (
-            <div className="fade-enter" style={{ background: 'rgba(0,0,0,0.5)', padding: '20px', borderRadius: '15px', border: '1px solid var(--accent-alt)' }}>
-              <p style={{ fontSize: '1.2rem', marginBottom: '10px' }}>
-                {assignedRoles[currentPlayerRevealIndex].isImpostor ? 'Tu pista secreta es:' : 'Tu palabra es:'}
-              </p>
-              <h2 style={{ fontSize: '2.5rem', color: assignedRoles[currentPlayerRevealIndex].isImpostor ? 'var(--accent-alt)' : 'var(--accent-neon)', marginBottom: '20px' }}>
-                {assignedRoles[currentPlayerRevealIndex].word}
-              </h2>
-              {assignedRoles[currentPlayerRevealIndex].isImpostor && (
-                <p style={{ color: 'var(--accent-alt)', fontWeight: 'bold', marginBottom: '15px' }}>
-                  <Skull size={16} style={{ display: 'inline', verticalAlign: 'middle' }} /> ¡SOS EL IMPOSTOR!
-                </p>
-              )}
+          <div style={{ display: 'grid', gridTemplateColumns: '1fr 1fr', gap: '15px', marginBottom: '30px' }}>
+            {assignedRoles.map((role) => {
+              const isPressing = revealingPlayer === role.playerName;
+              const hasSeen = seenPlayers.includes(role.playerName);
 
-              <button className="btn-secondary" onClick={nextReveal} style={{ marginTop: '30px', userSelect: 'none' }}>
-                <Check size={20} style={{ display: 'inline', verticalAlign: 'middle', marginRight: '8px' }} />
-                Ya lo vi, pasar al siguiente
-              </button>
-            </div>
-          )}
+              return (
+                <button
+                  key={role.playerName}
+                  className={`btn-${hasSeen && !isPressing ? 'secondary' : 'primary'}`}
+                  style={{
+                    padding: '10px',
+                    fontSize: isPressing ? '1rem' : '1.3rem',
+                    height: '110px',
+                    display: 'flex',
+                    flexDirection: 'column',
+                    justifyContent: 'center',
+                    alignItems: 'center',
+                    userSelect: 'none',
+                    WebkitUserSelect: 'none',
+                    opacity: hasSeen && !isPressing ? 0.7 : 1,
+                    transition: 'all 0.2s ease',
+                    wordBreak: 'break-word',
+                  }}
+                  onPointerDown={() => setRevealingPlayer(role.playerName)}
+                  onPointerUp={() => {
+                    setRevealingPlayer(null);
+                    if (!seenPlayers.includes(role.playerName)) {
+                      setSeenPlayers([...seenPlayers, role.playerName]);
+                    }
+                  }}
+                  onPointerLeave={() => {
+                    if (revealingPlayer === role.playerName) {
+                      setRevealingPlayer(null);
+                      if (!seenPlayers.includes(role.playerName)) {
+                        setSeenPlayers([...seenPlayers, role.playerName]);
+                      }
+                    }
+                  }}
+                >
+                  {isPressing ? (
+                    <div className="fade-enter" style={{ pointerEvents: 'none' }}>
+                      <span style={{ fontSize: '0.8rem', color: role.isImpostor ? 'var(--accent-alt)' : '#fff', marginBottom: '5px', display: 'block' }}>
+                        {role.isImpostor ? 'Tu pista:' : 'Palabra:'}
+                      </span>
+                      <strong style={{ color: role.isImpostor ? 'var(--accent-alt)' : 'var(--accent-neon)', fontSize: '1.3rem', lineHeight: '1.1' }}>
+                        {role.word}
+                      </strong>
+                    </div>
+                  ) : (
+                    <div style={{ pointerEvents: 'none' }}>
+                      {hasSeen && <Check size={16} style={{ display: 'block', margin: '0 auto 5px', opacity: 0.5 }} />}
+                      {role.playerName}
+                    </div>
+                  )}
+                </button>
+              );
+            })}
+          </div>
+
+          <button
+            className="btn-primary"
+            onClick={() => setCurrentScreen(SCREENS.DISCUSSION)}
+            style={{ width: '100%', opacity: seenPlayers.length === players.length ? 1 : 0.5 }}
+          >
+            Todos listos <Play size={20} style={{ display: 'inline', verticalAlign: 'middle', marginLeft: '5px' }} />
+          </button>
         </div>
       )}
 
