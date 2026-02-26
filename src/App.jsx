@@ -16,6 +16,7 @@ export default function App() {
 
   // Game State
   const [activeCategories, setActiveCategories] = useState([]);
+  const [assignedRoles, setAssignedRoles] = useState([]);
   const [currentPlayerRevealIndex, setCurrentPlayerRevealIndex] = useState(0);
   const [isRevealing, setIsRevealing] = useState(false);
   const [currentCategoryName, setCurrentCategoryName] = useState('');
