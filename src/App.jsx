@@ -22,6 +22,7 @@ export default function App() {
   const [currentCategoryName, setCurrentCategoryName] = useState('');
   const [startingPlayer, setStartingPlayer] = useState('');
   const [numImpostors, setNumImpostors] = useState(1);
+  const [votingResults, setVotingResults] = useState(null); // Will hold the final reveal info
 
   // Initialize all categories as active
   useEffect(() => {
@@ -63,7 +64,7 @@ export default function App() {
       return;
     }
 
-    const safeNumImpostors = Math.max(1, Math.min(numImpostors, Math.floor(players.length / 2)));
+    const safeNumImpostors = Math.max(1, Math.min(numImpostors, players.length - 1));
 
     // Pick a random category from the active ones
     const randomCatIndex = Math.floor(Math.random() * activeCategories.length);
@@ -166,7 +167,7 @@ export default function App() {
             <span style={{ fontSize: '1rem', color: 'var(--text-secondary)' }}>Impostores:</span>
             <button className="btn-secondary" style={{ width: '40px', padding: '5px' }} onClick={() => setNumImpostors(Math.max(1, numImpostors - 1))}>-</button>
             <span style={{ fontSize: '1.2rem', fontWeight: 'bold' }}>{numImpostors}</span>
-            <button className="btn-secondary" style={{ width: '40px', padding: '5px' }} onClick={() => setNumImpostors(Math.min(Math.floor(players.length / 2) || 1, numImpostors + 1))}>+</button>
+            <button className="btn-secondary" style={{ width: '40px', padding: '5px' }} onClick={() => setNumImpostors(Math.min(Math.max(1, players.length - 1), numImpostors + 1))}>+</button>
           </div>
 
           <button
@@ -226,9 +227,12 @@ export default function App() {
       {currentScreen === SCREENS.REVEAL && (
         <div className="glass-panel fade-enter" style={{ textAlign: 'center' }}>
           <h2 style={{ marginBottom: '10px' }}>Pasale el celu a</h2>
-          <h1 style={{ color: 'var(--accent-neon)', fontSize: '3rem', marginBottom: '30px' }}>
+          <h1 style={{ color: 'var(--accent-neon)', fontSize: '3rem', marginBottom: '10px' }}>
             {assignedRoles[currentPlayerRevealIndex].playerName}
           </h1>
+          <p style={{ color: 'var(--text-secondary)', marginBottom: '30px', fontSize: '1.2rem' }}>
+            Categoría: <strong style={{ color: 'var(--accent-alt)' }}>{currentCategoryName}</strong>
+          </p>
 
           {!isRevealing ? (
             <div style={{ display: 'flex', flexDirection: 'column', alignItems: 'center', gap: '20px' }}>
@@ -236,7 +240,18 @@ export default function App() {
               <button
                 className="btn-primary"
                 onPointerDown={() => setIsRevealing(true)}
-                style={{ padding: '30px 20px', fontSize: '1.2rem', display: 'flex', flexDirection: 'column', alignItems: 'center', gap: '10px' }}
+                onPointerUp={() => setIsRevealing(false)}
+                onPointerLeave={() => setIsRevealing(false)}
+                style={{
+                  padding: '30px 20px',
+                  fontSize: '1.2rem',
+                  display: 'flex',
+                  flexDirection: 'column',
+                  alignItems: 'center',
+                  gap: '10px',
+                  userSelect: 'none',
+                  WebkitUserSelect: 'none'
+                }}
               >
                 <Eye size={32} />
                 MANTENÉ APRETADO PARA VER TU ROL
@@ -256,9 +271,9 @@ export default function App() {
                 </p>
               )}
 
-              <button className="btn-secondary" onClick={nextReveal} style={{ marginTop: '30px' }}>
+              <button className="btn-secondary" onClick={nextReveal} style={{ marginTop: '30px', userSelect: 'none' }}>
                 <Check size={20} style={{ display: 'inline', verticalAlign: 'middle', marginRight: '8px' }} />
-                Ya lo vi, ocultar
+                Ya lo vi, pasar al siguiente
               </button>
             </div>
           )}
@@ -291,10 +306,37 @@ export default function App() {
           </div>
 
           <div style={{ display: 'grid', gridTemplateColumns: '1fr', gap: '15px' }}>
-            <button className="btn-primary" onClick={() => alert("¡VOTACIÓN! (Próximamente animado)")}>
-              Iniciar Votación
-            </button>
-            <button className="btn-secondary" onClick={resetGame}>
+            {!votingResults ? (
+              <button className="btn-primary" onClick={() => {
+                const impostors = assignedRoles.filter(r => r.isImpostor).map(r => r.playerName);
+                const wordObj = assignedRoles.find(r => !r.isImpostor);
+                setVotingResults({
+                  impostors,
+                  word: wordObj ? wordObj.word : '?'
+                });
+              }}>
+                Revelar Impostores
+              </button>
+            ) : (
+              <div className="fade-enter" style={{ background: 'rgba(0,0,0,0.5)', padding: '20px', borderRadius: '15px', border: '1px solid var(--accent-neon)', marginBottom: '20px' }}>
+                <h2 style={{ color: 'var(--text-primary)', marginBottom: '10px' }}>¡Resultados!</h2>
+                <p style={{ fontSize: '1.2rem', marginBottom: '5px', color: 'var(--text-secondary)' }}>La palabra secreta era:</p>
+                <h3 style={{ fontSize: '2rem', color: 'var(--accent-neon)', marginBottom: '20px' }}>"{votingResults.word}"</h3>
+
+                <p style={{ fontSize: '1.2rem', marginBottom: '5px', color: 'var(--text-secondary)' }}>
+                  {votingResults.impostors.length > 1 ? 'Los impostores eran:' : 'El impostor era:'}
+                </p>
+                <div style={{ display: 'flex', flexWrap: 'wrap', gap: '10px', justifyContent: 'center' }}>
+                  {votingResults.impostors.map(imp => (
+                    <span key={imp} style={{ background: 'var(--accent-alt)', padding: '5px 15px', borderRadius: '15px', fontWeight: 'bold', color: '#fff' }}>
+                      <Skull size={14} style={{ display: 'inline', marginRight: '5px' }} /> {imp}
+                    </span>
+                  ))}
+                </div>
+              </div>
+            )}
+
+            <button className="btn-secondary" onClick={() => { setVotingResults(null); resetGame(); }}>
               Terminar y armar otra
             </button>
           </div>
