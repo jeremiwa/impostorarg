@@ -1,0 +1,1457 @@
+[
+  {
+    "id": "futbol",
+    "icon": "⚽",
+    "name": "Fútbol Argentino",
+    "items": [
+      {
+        "word": "Boca Juniors",
+        "clues": [
+          "La 12",
+          "Ribera",
+          "Azul y Oro",
+          "Barrio"
+        ]
+      },
+      {
+        "word": "Lionel Messi",
+        "clues": [
+          "Capitán",
+          "Zurda",
+          "Rosario",
+          "Diez"
+        ]
+      },
+      {
+        "word": "La Bombonera",
+        "clues": [
+          "Latidos",
+          "Escalones",
+          "Templo",
+          "Barrio"
+        ]
+      },
+      {
+        "word": "Bilardo",
+        "clues": [
+          "Táctica",
+          "Gatorade",
+          "Alfiler",
+          "Doctor"
+        ]
+      },
+      {
+        "word": "Dibu Martínez",
+        "clues": [
+          "Penales",
+          "Baile",
+          "Rojo",
+          "Locura"
+        ]
+      },
+      {
+        "word": "Independiente",
+        "clues": [
+          "Rey de Copas",
+          "Rojo",
+          "Avellaneda",
+          "Infierno"
+        ]
+      },
+      {
+        "word": "Scaloni",
+        "clues": [
+          "Pujato",
+          "Joven",
+          "Grupo",
+          "Llorón"
+        ]
+      },
+      {
+        "word": "Potrero",
+        "clues": [
+          "Barro",
+          "Pibes",
+          "Pelota",
+          "Tierra"
+        ]
+      },
+      {
+        "word": "Choripán de cancha",
+        "clues": [
+          "Chimichurri",
+          "Humo",
+          "Parrilla",
+          "Entrepatiempo"
+        ]
+      },
+      {
+        "word": "Copa Libertadores",
+        "clues": [
+          "América",
+          "Obsesión",
+          "Noche",
+          "Trofeo"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "asado",
+    "icon": "🥩",
+    "name": "El Asado",
+    "items": [
+      {
+        "word": "Chinchulines",
+        "clues": [
+          "Limón",
+          "Trenza",
+          "Achura",
+          "Crocante"
+        ]
+      },
+      {
+        "word": "Vacío",
+        "clues": [
+          "Cuero",
+          "Jugoso",
+          "Corte",
+          "Parrilla"
+        ]
+      },
+      {
+        "word": "Entraña",
+        "clues": [
+          "Fina",
+          "Rápida",
+          "Tela",
+          "Sangrienta"
+        ]
+      },
+      {
+        "word": "Morcilla",
+        "clues": [
+          "Sangre",
+          "Dulce o Salada",
+          "Fría",
+          "Negra"
+        ]
+      },
+      {
+        "word": "Provoletera",
+        "clues": [
+          "Derrite",
+          "Orégano",
+          "Costra",
+          "Entrada"
+        ]
+      },
+      {
+        "word": "Carbón",
+        "clues": [
+          "Fuego",
+          "Bolsa",
+          "Mancha",
+          "Brasas"
+        ]
+      },
+      {
+        "word": "Chimichurri",
+        "clues": [
+          "Picante",
+          "Hierbas",
+          "Aceite",
+          "Aderezo"
+        ]
+      },
+      {
+        "word": "Aplauso al asador",
+        "clues": [
+          "Costumbre",
+          "Cierre",
+          "Agradecimiento",
+          "Mesa"
+        ]
+      },
+      {
+        "word": "Tapa de asado",
+        "clues": [
+          "Horno",
+          "Paciencia",
+          "Económico",
+          "Fibras"
+        ]
+      },
+      {
+        "word": "Chulengo",
+        "clues": [
+          "Tambor",
+          "Ruedas",
+          "Lluvia",
+          "Patio"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "golosinas",
+    "icon": "🍬",
+    "name": "Kiosco",
+    "items": [
+      {
+        "word": "Guaymallén",
+        "clues": [
+          "Triples",
+          "Caviar",
+          "Barato",
+          "Kiosco"
+        ]
+      },
+      {
+        "word": "Palitos de la selva",
+        "clues": [
+          "Animales",
+          "Papelito",
+          "Masticable",
+          "Tubito"
+        ]
+      },
+      {
+        "word": "Tita",
+        "clues": [
+          "Cuadrada",
+          "Limón",
+          "Amarillo",
+          "Galletita"
+        ]
+      },
+      {
+        "word": "Sugus",
+        "clues": [
+          "Colores",
+          "Cuadrado",
+          "Pegajoso",
+          "Fruta"
+        ]
+      },
+      {
+        "word": "Pico Dulce",
+        "clues": [
+          "Chupetín",
+          "Colores",
+          "Tiritas",
+          "Kiosco"
+        ]
+      },
+      {
+        "word": "Mantecol",
+        "clues": [
+          "Maní",
+          "Fiestas",
+          "Navidad",
+          "Desarmable"
+        ]
+      },
+      {
+        "word": "Dos Corazones",
+        "clues": [
+          "Poema",
+          "Bombón",
+          "Pareja",
+          "Chocolate"
+        ]
+      },
+      {
+        "word": "Bubbaloo",
+        "clues": [
+          "Centro",
+          "Globo",
+          "Goma",
+          "Corto"
+        ]
+      },
+      {
+        "word": "Naranjú",
+        "clues": [
+          "Bolsita",
+          "Congelado",
+          "Plástico",
+          "Cítrico"
+        ]
+      },
+      {
+        "word": "Jorgito",
+        "clues": [
+          "Blanco",
+          "Tradición",
+          "Colegio",
+          "Alfajor"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "rock",
+    "icon": "🎸",
+    "name": "Rock Nacional",
+    "items": [
+      {
+        "word": "Charly García",
+        "clues": [
+          "Bicolor",
+          "Piano",
+          "Salto",
+          "Genio"
+        ]
+      },
+      {
+        "word": "Soda Stereo",
+        "clues": [
+          "Trío",
+          "Gira",
+          "Masivo",
+          "Totales"
+        ]
+      },
+      {
+        "word": "Spinetta",
+        "clues": [
+          "Poesía",
+          "Flaco",
+          "Alma",
+          "Acordes"
+        ]
+      },
+      {
+        "word": "La Renga",
+        "clues": [
+          "Banquete",
+          "Estrella",
+          "Barrio",
+          "Pesado"
+        ]
+      },
+      {
+        "word": "Andrés Calamaro",
+        "clues": [
+          "Salmón",
+          "Gafas",
+          "España",
+          "Prolífico"
+        ]
+      },
+      {
+        "word": "Viejas Locas",
+        "clues": [
+          "Pity",
+          "Piedrabuena",
+          "Sustancia",
+          "Blues"
+        ]
+      },
+      {
+        "word": "Pappo",
+        "clues": [
+          "Guitarras",
+          "Motos",
+          "Queso",
+          "Metal"
+        ]
+      },
+      {
+        "word": "Catupecu Machu",
+        "clues": [
+          "Energía",
+          "Hermanos",
+          "Bajo",
+          "Pogo"
+        ]
+      },
+      {
+        "word": "Babasónicos",
+        "clues": [
+          "Glamour",
+          "Descaro",
+          "Playa",
+          "Dárgelos"
+        ]
+      },
+      {
+        "word": "Los Fabulosos Cadillacs",
+        "clues": [
+          "Matador",
+          "Vientos",
+          "Percusión",
+          "León"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "cumbia",
+    "icon": "🕺",
+    "name": "Cumbia y Cuarteto",
+    "items": [
+      {
+        "word": "La Mona Jiménez",
+        "clues": [
+          "Mano",
+          "Córdoba",
+          "Mandíbula",
+          "Beso"
+        ]
+      },
+      {
+        "word": "Gilda",
+        "clues": [
+          "Santa",
+          "Tragedia",
+          "Milagro",
+          "Corona"
+        ]
+      },
+      {
+        "word": "Damas Gratis",
+        "clues": [
+          "Teclado",
+          "Villera",
+          "Pablito",
+          "ATR"
+        ]
+      },
+      {
+        "word": "Los Palmeras",
+        "clues": [
+          "Acordeón",
+          "Santa Fe",
+          "Sabalero",
+          "Bombón"
+        ]
+      },
+      {
+        "word": "Karina",
+        "clues": [
+          "Princesita",
+          "Mentiroso",
+          "Dolor",
+          "Cumbia"
+        ]
+      },
+      {
+        "word": "Néstor en Bloque",
+        "clues": [
+          "Peinado",
+          "Romántico",
+          "Base",
+          "Teclado"
+        ]
+      },
+      {
+        "word": "Grupo Sombras",
+        "clues": [
+          "Boquita",
+          "Pelo",
+          "Noventa",
+          "Norte"
+        ]
+      },
+      {
+        "word": "Leo Mattioli",
+        "clues": [
+          "León",
+          "Rosa",
+          "Cama",
+          "Romanticismo"
+        ]
+      },
+      {
+        "word": "Ráfaga",
+        "clues": [
+          "Trajes",
+          "Trompetas",
+          "Cerveza",
+          "Voz"
+        ]
+      },
+      {
+        "word": "Mala Fama",
+        "clues": [
+          "Basura",
+          "Japito",
+          "Visera",
+          "Herrero"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "provincias",
+    "icon": "🧉",
+    "name": "Provincias / Turismo",
+    "items": [
+      {
+        "word": "Carlos Paz",
+        "clues": [
+          "Teatros",
+          "Cucú",
+          "Sierras",
+          "Peatonal"
+        ]
+      },
+      {
+        "word": "Bariloche",
+        "clues": [
+          "Chocolate",
+          "Egresados",
+          "Nieve",
+          "Lagos"
+        ]
+      },
+      {
+        "word": "Cataratas del Iguazú",
+        "clues": [
+          "Agua",
+          "Garganta",
+          "Diablo",
+          "Selva"
+        ]
+      },
+      {
+        "word": "Mendoza",
+        "clues": [
+          "Vinos",
+          "Montaña",
+          "Cordillera",
+          "Aconcagua"
+        ]
+      },
+      {
+        "word": "Salta",
+        "clues": [
+          "Linda",
+          "Empanadas",
+          "Peñas",
+          "Norte"
+        ]
+      },
+      {
+        "word": "Tierra del Fuego",
+        "clues": [
+          "Fin",
+          "Presidio",
+          "Frío",
+          "Isla"
+        ]
+      },
+      {
+        "word": "Rosario",
+        "clues": [
+          "Monumento",
+          "Bandera",
+          "Río",
+          "Gatos"
+        ]
+      },
+      {
+        "word": "Merlo",
+        "clues": [
+          "Microclima",
+          "San Luis",
+          "Sierras",
+          "Tranquilidad"
+        ]
+      },
+      {
+        "word": "Villa Gesell",
+        "clues": [
+          "Jóvenes",
+          "Playa",
+          "Bosque",
+          "Arena"
+        ]
+      },
+      {
+        "word": "Las Leñas",
+        "clues": [
+          "Esquí",
+          "Valle",
+          "Cheto",
+          "Invierno"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "bizarros",
+    "icon": "📺",
+    "name": "Personajes Bizarros",
+    "items": [
+      {
+        "word": "Ricardo Fort",
+        "clues": [
+          "Comandante",
+          "Miami",
+          "Chocolate",
+          "Rolls Royce"
+        ]
+      },
+      {
+        "word": "El Gigoló",
+        "clues": [
+          "Champagne",
+          "Estafa",
+          "Polo",
+          "Night"
+        ]
+      },
+      {
+        "word": "Zulma Lobato",
+        "clues": [
+          "Michifuz",
+          "Plumas",
+          "Televisión",
+          "Mediática"
+        ]
+      },
+      {
+        "word": "Guido Süller",
+        "clues": [
+          "Lágrimas",
+          "Piloto",
+          "Hermano",
+          "Bizarro"
+        ]
+      },
+      {
+        "word": "Amalia Granata",
+        "clues": [
+          "Pasto",
+          "Robbie Williams",
+          "Política",
+          "Rosarina"
+        ]
+      },
+      {
+        "word": "Alejandro Fantino",
+        "clues": [
+          "Espartanos",
+          "Pará",
+          "Humo",
+          "Televisión"
+        ]
+      },
+      {
+        "word": "La Tota Santillán",
+        "clues": [
+          "Presentador",
+          "Movida",
+          "Bailanta",
+          "Gordo"
+        ]
+      },
+      {
+        "word": "Samanta Casais",
+        "clues": [
+          "Pastelera",
+          "Fraude",
+          "Bake",
+          "Empanadas"
+        ]
+      },
+      {
+        "word": "Moria Casán",
+        "clues": [
+          "Lengua",
+          "Karateca",
+          "Conchí",
+          "Vanguardia"
+        ]
+      },
+      {
+        "word": "El Atendedor de Boludos",
+        "clues": [
+          "Colectivo",
+          "Pregunta",
+          "Insulto",
+          "Viral"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "merienda",
+    "icon": "🥐",
+    "name": "Panadería",
+    "items": [
+      {
+        "word": "Medialuna de manteca",
+        "clues": [
+          "Almíbar",
+          "Puntas",
+          "Esponjosa",
+          "Dulce"
+        ]
+      },
+      {
+        "word": "Vigilante",
+        "clues": [
+          "Larga",
+          "Crema",
+          "Membrillo",
+          "Factura"
+        ]
+      },
+      {
+        "word": "Bolas de fraile",
+        "clues": [
+          "Fritas",
+          "Azúcar",
+          "Rellenas",
+          "Pesadas"
+        ]
+      },
+      {
+        "word": "Palmera",
+        "clues": [
+          "Hojaldre",
+          "Orejas",
+          "Azúcar",
+          "Seca"
+        ]
+      },
+      {
+        "word": "Chipá",
+        "clues": [
+          "Queso",
+          "Mandioca",
+          "Calentito",
+          "Bolita"
+        ]
+      },
+      {
+        "word": "Bizcochitos",
+        "clues": [
+          "Grasa",
+          "Mate",
+          "Tardes",
+          "Saladitos"
+        ]
+      },
+      {
+        "word": "Pasta frola",
+        "clues": [
+          "Rejilla",
+          "Membrillo",
+          "Batata",
+          "Masa"
+        ]
+      },
+      {
+        "word": "Alfajor de maicena",
+        "clues": [
+          "Coco",
+          "Desgrana",
+          "Seco",
+          "Dulce"
+        ]
+      },
+      {
+        "word": "Pan Felipe",
+        "clues": [
+          "Flauta",
+          "Miga",
+          "Corteza",
+          "Sandwich"
+        ]
+      },
+      {
+        "word": "Torta frita",
+        "clues": [
+          "Lluvia",
+          "Grasa",
+          "Agujero",
+          "Masa"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "bebidas",
+    "icon": "🥃",
+    "name": "Bebidas de Previa",
+    "items": [
+      {
+        "word": "Fernet con Coca",
+        "clues": [
+          "Espuma",
+          "Cordobés",
+          "Negro",
+          "Hielo"
+        ]
+      },
+      {
+        "word": "Gancia con Limón",
+        "clues": [
+          "Aperitivo",
+          "Amarillo",
+          "Batido",
+          "Suave"
+        ]
+      },
+      {
+        "word": "Vino en cartón",
+        "clues": [
+          "Tetra",
+          "Económico",
+          "Tinto",
+          "Calle"
+        ]
+      },
+      {
+        "word": "Quilmes",
+        "clues": [
+          "Sabor",
+          "Clásica",
+          "Azul",
+          "Cerveza"
+        ]
+      },
+      {
+        "word": "Smirnoff de manzana",
+        "clues": [
+          "Verde",
+          "Vodka",
+          "Dulce",
+          "Química"
+        ]
+      },
+      {
+        "word": "Pritty",
+        "clues": [
+          "Limón",
+          "Córdoba",
+          "Gaseosa",
+          "Amarillo"
+        ]
+      },
+      {
+        "word": "Mate amargo",
+        "clues": [
+          "Verde",
+          "Caliente",
+          "Costumbre",
+          "Lavado"
+        ]
+      },
+      {
+        "word": "Tereré",
+        "clues": [
+          "Jugo",
+          "Hielo",
+          "Verano",
+          "Plástico"
+        ]
+      },
+      {
+        "word": "Champagne con Speed",
+        "clues": [
+          "Boliche",
+          "Burbujas",
+          "Energizante",
+          "Amarillo"
+        ]
+      },
+      {
+        "word": "Licor de Melón",
+        "clues": [
+          "Verde",
+          "Pegajoso",
+          "Dulce",
+          "Chupito"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "marcas",
+    "icon": "🦖",
+    "name": "Marcas del Recuerdo",
+    "items": [
+      {
+        "word": "Pumper Nic",
+        "clues": [
+          "Hipopótamo",
+          "Papas",
+          "Rápida",
+          "Ochentas"
+        ]
+      },
+      {
+        "word": "Naranpol",
+        "clues": [
+          "Gaseosa",
+          "Colores",
+          "Plástico",
+          "Barata"
+        ]
+      },
+      {
+        "word": "Blockbuster",
+        "clues": [
+          "VHS",
+          "Devolución",
+          "Multa",
+          "Películas"
+        ]
+      },
+      {
+        "word": "Sacoa",
+        "clues": [
+          "Fichas",
+          "Videojuegos",
+          "Peluche",
+          "Tickets"
+        ]
+      },
+      {
+        "word": "El Parque de la Costa",
+        "clues": [
+          "Montaña",
+          "Tigre",
+          "Pasaporte",
+          "Juegos"
+        ]
+      },
+      {
+        "word": "Dinara",
+        "clues": [
+          "Pilas",
+          "Radio",
+          "Linterna",
+          "Energía"
+        ]
+      },
+      {
+        "word": "Zapatillas Flecha",
+        "clues": [
+          "Lona",
+          "Goma",
+          "Colegio",
+          "Clásicas"
+        ]
+      },
+      {
+        "word": "La Serenísima",
+        "clues": [
+          "Leche",
+          "Mastellone",
+          "Verde",
+          "Sachet"
+        ]
+      },
+      {
+        "word": "Geniol",
+        "clues": [
+          "Cabeza",
+          "Pinches",
+          "Aspirina",
+          "Dolor"
+        ]
+      },
+      {
+        "word": "Caramelos Media Hora",
+        "clues": [
+          "Anís",
+          "Negros",
+          "Reloj",
+          "Odiados"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "transporte",
+    "icon": "🚌",
+    "name": "Transporte Público",
+    "items": [
+      {
+        "word": "El 60",
+        "clues": [
+          "Colectivo",
+          "Ramales",
+          "Tigre",
+          "Constitución"
+        ]
+      },
+      {
+        "word": "Tren Roca",
+        "clues": [
+          "Sur",
+          "Eléctrico",
+          "Constitución",
+          "Naranja"
+        ]
+      },
+      {
+        "word": "Subte B",
+        "clues": [
+          "Rojo",
+          "Calor",
+          "Alem",
+          "Rosas"
+        ]
+      },
+      {
+        "word": "Tarjeta SUBE",
+        "clues": [
+          "Plástico",
+          "Saldo",
+          "Carga",
+          "Apoyo"
+        ]
+      },
+      {
+        "word": "El Mitre",
+        "clues": [
+          "Retiro",
+          "Norte",
+          "Tigre",
+          "Tren"
+        ]
+      },
+      {
+        "word": "Taxi",
+        "clues": [
+          "Techo",
+          "Amarillo",
+          "Radio",
+          "Peaje"
+        ]
+      },
+      {
+        "word": "Uber",
+        "clues": [
+          "App",
+          "Viaje",
+          "Estrellas",
+          "Mapa"
+        ]
+      },
+      {
+        "word": "Micro de larga distancia",
+        "clues": [
+          "Cama",
+          "Ruta",
+          "Terminal",
+          "Vianda"
+        ]
+      },
+      {
+        "word": "Ecobici",
+        "clues": [
+          "Naranja",
+          "Estación",
+          "Pedaleo",
+          "Ciudad"
+        ]
+      },
+      {
+        "word": "Furgón",
+        "clues": [
+          "Bicis",
+          "Humo",
+          "Vendedores",
+          "Puertas"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "cine",
+    "icon": "🎬",
+    "name": "Cine y Series",
+    "items": [
+      {
+        "word": "Los Simuladores",
+        "clues": [
+          "Operativo",
+          "Problemas",
+          "Fuego",
+          "Lampone"
+        ]
+      },
+      {
+        "word": "El Marginal",
+        "clues": [
+          "Cárcel",
+          "Sub",
+          "Diosito",
+          "Borges"
+        ]
+      },
+      {
+        "word": "Casados con Hijos",
+        "clues": [
+          "Zapatos",
+          "Sillón",
+          "Pepe",
+          "Moni"
+        ]
+      },
+      {
+        "word": "El Secreto de sus Ojos",
+        "clues": [
+          "Escribir",
+          "Asesinato",
+          "Estadio",
+          "Óscar"
+        ]
+      },
+      {
+        "word": "Esperando la Carroza",
+        "clues": [
+          "Mamá",
+          "Empanadas",
+          "Agua",
+          "Velorio"
+        ]
+      },
+      {
+        "word": "Chiquititas",
+        "clues": [
+          "Orfanato",
+          "Canciones",
+          "Rincón",
+          "Luz"
+        ]
+      },
+      {
+        "word": "Rebelde Way",
+        "clues": [
+          "Elite",
+          "Colegio",
+          "Banda",
+          "Adolescentes"
+        ]
+      },
+      {
+        "word": "Pol-ka",
+        "clues": [
+          "Suelar",
+          "Tiras",
+          "Chueco",
+          "Costumbrismo"
+        ]
+      },
+      {
+        "word": "Videomatch",
+        "clues": [
+          "Cámaras",
+          "Blooper",
+          "Alfajores",
+          "Marcelo"
+        ]
+      },
+      {
+        "word": "CQC",
+        "clues": [
+          "Trajes",
+          "Gafas",
+          "Noteros",
+          "Moscas"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "barrios",
+    "icon": "🏙️",
+    "name": "Barrios",
+    "items": [
+      {
+        "word": "Palermo",
+        "clues": [
+          "Soho",
+          "Hollywood",
+          "Cervezas",
+          "Empedrado"
+        ]
+      },
+      {
+        "word": "La Boca",
+        "clues": [
+          "Caminito",
+          "Riachuelo",
+          "Colores",
+          "Turistas"
+        ]
+      },
+      {
+        "word": "San Justo",
+        "clues": [
+          "Plaza",
+          "Oeste",
+          "Matanza",
+          "Centro"
+        ]
+      },
+      {
+        "word": "Quilmes",
+        "clues": [
+          "Cerveza",
+          "Río",
+          "Sur",
+          "Fábrica"
+        ]
+      },
+      {
+        "word": "San Isidro",
+        "clues": [
+          "Norte",
+          "Catedral",
+          "Casas",
+          "Tren"
+        ]
+      },
+      {
+        "word": "Flores",
+        "clues": [
+          "Avenida",
+          "Ropa",
+          "Rivadavia",
+          "Plaza"
+        ]
+      },
+      {
+        "word": "Mataderos",
+        "clues": [
+          "Carne",
+          "Feria",
+          "Gauchos",
+          "Resero"
+        ]
+      },
+      {
+        "word": "Recoleta",
+        "clues": [
+          "Cementerio",
+          "Chetos",
+          "Avenida",
+          "Parque"
+        ]
+      },
+      {
+        "word": "Once",
+        "clues": [
+          "Mayoristas",
+          "Gente",
+          "Plaza",
+          "Estación"
+        ]
+      },
+      {
+        "word": "Lanús",
+        "clues": [
+          "Sur",
+          "Granate",
+          "Puente",
+          "Avenida"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "deportistas",
+    "icon": "🏅",
+    "name": "Deportistas",
+    "items": [
+      {
+        "word": "Manu Ginóbili",
+        "clues": [
+          "Zurda",
+          "Aro",
+          "Palomita",
+          "Oro"
+        ]
+      },
+      {
+        "word": "Luciana Aymar",
+        "clues": [
+          "Palo",
+          "Magia",
+          "Leonas",
+          "Mejor"
+        ]
+      },
+      {
+        "word": "Guillermo Vilas",
+        "clues": [
+          "Raqueta",
+          "Zurdazo",
+          "Polvo",
+          "Vincha"
+        ]
+      },
+      {
+        "word": "Paula Pareto",
+        "clues": [
+          "Pequeña",
+          "Tatami",
+          "Médica",
+          "Llave"
+        ]
+      },
+      {
+        "word": "Marcos Maidana",
+        "clues": [
+          "Chino",
+          "Guantes",
+          "Ring",
+          "Golpe"
+        ]
+      },
+      {
+        "word": "Fangio",
+        "clues": [
+          "Volante",
+          "Cinco",
+          "Casco",
+          "Balcarce"
+        ]
+      },
+      {
+        "word": "Luis Scola",
+        "clues": [
+          "Capitán",
+          "Pivote",
+          "Generación",
+          "Rebotes"
+        ]
+      },
+      {
+        "word": "Diego Simeone",
+        "clues": [
+          "Cholo",
+          "Negro",
+          "Cuchillo",
+          "Técnico"
+        ]
+      },
+      {
+        "word": "Hugo Porta",
+        "clues": [
+          "Patada",
+          "Óvalo",
+          "Apertura",
+          "Pumas"
+        ]
+      },
+      {
+        "word": "Gato Gaudio",
+        "clues": [
+          "Talento",
+          "Locura",
+          "Polvo",
+          "Corazón"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "objetos",
+    "icon": "🏠",
+    "name": "Cosas de Casa",
+    "items": [
+      {
+        "word": "Sifón de soda",
+        "clues": [
+          "Gatillo",
+          "Burbujas",
+          "Vidrio",
+          "Mesa"
+        ]
+      },
+      {
+        "word": "Secador de piso",
+        "clues": [
+          "Goma",
+          "Trapo",
+          "Palo",
+          "Agua"
+        ]
+      },
+      {
+        "word": "Bidet",
+        "clues": [
+          "Limpieza",
+          "Chorro",
+          "Baño",
+          "Agua"
+        ]
+      },
+      {
+        "word": "Mate de calabaza",
+        "clues": [
+          "Curar",
+          "Yerba",
+          "Costumbre",
+          "Bombilla"
+        ]
+      },
+      {
+        "word": "Pava silbadora",
+        "clues": [
+          "Hervir",
+          "Ruido",
+          "Fuego",
+          "Metal"
+        ]
+      },
+      {
+        "word": "Termo Stanley",
+        "clues": [
+          "Verde",
+          "Acero",
+          "Caro",
+          "Duradero"
+        ]
+      },
+      {
+        "word": "Pelopincho",
+        "clues": [
+          "Lona",
+          "Agua",
+          "Verano",
+          "Patio"
+        ]
+      },
+      {
+        "word": "Ventilador Liliana",
+        "clues": [
+          "Ruido",
+          "Plástico",
+          "Giro",
+          "Calor"
+        ]
+      },
+      {
+        "word": "Tupper",
+        "clues": [
+          "Sobras",
+          "Tapa",
+          "Plástico",
+          "Heladera"
+        ]
+      },
+      {
+        "word": "Fósforos Fragata",
+        "clues": [
+          "Madera",
+          "Chispa",
+          "Caja",
+          "Cocina"
+        ]
+      }
+    ]
+  }
+]
