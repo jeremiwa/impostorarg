@@ -1,5 +1,372 @@
 [
   {
+    "id": "comidas_bebidas",
+    "icon": "🍔",
+    "name": "Comidas y Bebidas",
+    "items": [
+      {
+        "word": "Chinchulines",
+        "clues": [
+          "Limón",
+          "Trenza",
+          "Achura",
+          "Crocante"
+        ]
+      },
+      {
+        "word": "Vacío",
+        "clues": [
+          "Cuero",
+          "Jugoso",
+          "Corte",
+          "Parrilla"
+        ]
+      },
+      {
+        "word": "Entraña",
+        "clues": [
+          "Fina",
+          "Rápida",
+          "Tela",
+          "Sangrienta"
+        ]
+      },
+      {
+        "word": "Morcilla",
+        "clues": [
+          "Sangre",
+          "Dulce o Salada",
+          "Fría",
+          "Negra"
+        ]
+      },
+      {
+        "word": "Provoletera",
+        "clues": [
+          "Derrite",
+          "Orégano",
+          "Costra",
+          "Entrada"
+        ]
+      },
+      {
+        "word": "Carbón",
+        "clues": [
+          "Fuego",
+          "Bolsa",
+          "Mancha",
+          "Brasas"
+        ]
+      },
+      {
+        "word": "Chimichurri",
+        "clues": [
+          "Picante",
+          "Hierbas",
+          "Aceite",
+          "Aderezo"
+        ]
+      },
+      {
+        "word": "Aplauso al asador",
+        "clues": [
+          "Costumbre",
+          "Cierre",
+          "Agradecimiento",
+          "Mesa"
+        ]
+      },
+      {
+        "word": "Tapa de asado",
+        "clues": [
+          "Horno",
+          "Paciencia",
+          "Económico",
+          "Fibras"
+        ]
+      },
+      {
+        "word": "Chulengo",
+        "clues": [
+          "Tambor",
+          "Ruedas",
+          "Lluvia",
+          "Patio"
+        ]
+      },
+      {
+        "word": "Guaymallén",
+        "clues": [
+          "Triples",
+          "Caviar",
+          "Barato",
+          "Kiosco"
+        ]
+      },
+      {
+        "word": "Palitos de la selva",
+        "clues": [
+          "Animales",
+          "Papelito",
+          "Masticable",
+          "Tubito"
+        ]
+      },
+      {
+        "word": "Tita",
+        "clues": [
+          "Cuadrada",
+          "Limón",
+          "Amarillo",
+          "Galletita"
+        ]
+      },
+      {
+        "word": "Sugus",
+        "clues": [
+          "Colores",
+          "Cuadrado",
+          "Pegajoso",
+          "Fruta"
+        ]
+      },
+      {
+        "word": "Pico Dulce",
+        "clues": [
+          "Chupetín",
+          "Colores",
+          "Tiritas",
+          "Kiosco"
+        ]
+      },
+      {
+        "word": "Mantecol",
+        "clues": [
+          "Maní",
+          "Fiestas",
+          "Navidad",
+          "Desarmable"
+        ]
+      },
+      {
+        "word": "Dos Corazones",
+        "clues": [
+          "Poema",
+          "Bombón",
+          "Pareja",
+          "Chocolate"
+        ]
+      },
+      {
+        "word": "Bubbaloo",
+        "clues": [
+          "Centro",
+          "Globo",
+          "Goma",
+          "Corto"
+        ]
+      },
+      {
+        "word": "Naranjú",
+        "clues": [
+          "Bolsita",
+          "Congelado",
+          "Plástico",
+          "Cítrico"
+        ]
+      },
+      {
+        "word": "Jorgito",
+        "clues": [
+          "Blanco",
+          "Tradición",
+          "Colegio",
+          "Alfajor"
+        ]
+      },
+      {
+        "word": "Medialuna de manteca",
+        "clues": [
+          "Almíbar",
+          "Puntas",
+          "Esponjosa",
+          "Dulce"
+        ]
+      },
+      {
+        "word": "Vigilante",
+        "clues": [
+          "Larga",
+          "Crema",
+          "Membrillo",
+          "Factura"
+        ]
+      },
+      {
+        "word": "Bolas de fraile",
+        "clues": [
+          "Fritas",
+          "Azúcar",
+          "Rellenas",
+          "Pesadas"
+        ]
+      },
+      {
+        "word": "Palmera",
+        "clues": [
+          "Hojaldre",
+          "Orejas",
+          "Azúcar",
+          "Seca"
+        ]
+      },
+      {
+        "word": "Chipá",
+        "clues": [
+          "Queso",
+          "Mandioca",
+          "Calentito",
+          "Bolita"
+        ]
+      },
+      {
+        "word": "Bizcochitos",
+        "clues": [
+          "Grasa",
+          "Mate",
+          "Tardes",
+          "Saladitos"
+        ]
+      },
+      {
+        "word": "Pasta frola",
+        "clues": [
+          "Rejilla",
+          "Membrillo",
+          "Batata",
+          "Masa"
+        ]
+      },
+      {
+        "word": "Alfajor de maicena",
+        "clues": [
+          "Coco",
+          "Desgrana",
+          "Seco",
+          "Dulce"
+        ]
+      },
+      {
+        "word": "Pan Felipe",
+        "clues": [
+          "Flauta",
+          "Miga",
+          "Corteza",
+          "Sandwich"
+        ]
+      },
+      {
+        "word": "Torta frita",
+        "clues": [
+          "Lluvia",
+          "Grasa",
+          "Agujero",
+          "Masa"
+        ]
+      },
+      {
+        "word": "Fernet con Coca",
+        "clues": [
+          "Espuma",
+          "Cordobés",
+          "Negro",
+          "Hielo"
+        ]
+      },
+      {
+        "word": "Gancia con Limón",
+        "clues": [
+          "Aperitivo",
+          "Amarillo",
+          "Batido",
+          "Suave"
+        ]
+      },
+      {
+        "word": "Vino en cartón",
+        "clues": [
+          "Tetra",
+          "Económico",
+          "Tinto",
+          "Calle"
+        ]
+      },
+      {
+        "word": "Quilmes",
+        "clues": [
+          "Sabor",
+          "Clásica",
+          "Azul",
+          "Cerveza"
+        ]
+      },
+      {
+        "word": "Smirnoff de manzana",
+        "clues": [
+          "Verde",
+          "Vodka",
+          "Dulce",
+          "Química"
+        ]
+      },
+      {
+        "word": "Pritty",
+        "clues": [
+          "Limón",
+          "Córdoba",
+          "Gaseosa",
+          "Amarillo"
+        ]
+      },
+      {
+        "word": "Mate amargo",
+        "clues": [
+          "Verde",
+          "Caliente",
+          "Costumbre",
+          "Lavado"
+        ]
+      },
+      {
+        "word": "Tereré",
+        "clues": [
+          "Jugo",
+          "Hielo",
+          "Verano",
+          "Plástico"
+        ]
+      },
+      {
+        "word": "Champagne con Speed",
+        "clues": [
+          "Boliche",
+          "Burbujas",
+          "Energizante",
+          "Amarillo"
+        ]
+      },
+      {
+        "word": "Licor de Melón",
+        "clues": [
+          "Verde",
+          "Pegajoso",
+          "Dulce",
+          "Chupito"
+        ]
+      }
+    ]
+  },
+  {
     "id": "futbol",
     "icon": "⚽",
     "name": "Fútbol Argentino",
@@ -92,200 +459,6 @@
           "Obsesión",
           "Noche",
           "Trofeo"
-        ]
-      }
-    ]
-  },
-  {
-    "id": "asado",
-    "icon": "🥩",
-    "name": "El Asado",
-    "items": [
-      {
-        "word": "Chinchulines",
-        "clues": [
-          "Limón",
-          "Trenza",
-          "Achura",
-          "Crocante"
-        ]
-      },
-      {
-        "word": "Vacío",
-        "clues": [
-          "Cuero",
-          "Jugoso",
-          "Corte",
-          "Parrilla"
-        ]
-      },
-      {
-        "word": "Entraña",
-        "clues": [
-          "Fina",
-          "Rápida",
-          "Tela",
-          "Sangrienta"
-        ]
-      },
-      {
-        "word": "Morcilla",
-        "clues": [
-          "Sangre",
-          "Dulce o Salada",
-          "Fría",
-          "Negra"
-        ]
-      },
-      {
-        "word": "Provoletera",
-        "clues": [
-          "Derrite",
-          "Orégano",
-          "Costra",
-          "Entrada"
-        ]
-      },
-      {
-        "word": "Carbón",
-        "clues": [
-          "Fuego",
-          "Bolsa",
-          "Mancha",
-          "Brasas"
-        ]
-      },
-      {
-        "word": "Chimichurri",
-        "clues": [
-          "Picante",
-          "Hierbas",
-          "Aceite",
-          "Aderezo"
-        ]
-      },
-      {
-        "word": "Aplauso al asador",
-        "clues": [
-          "Costumbre",
-          "Cierre",
-          "Agradecimiento",
-          "Mesa"
-        ]
-      },
-      {
-        "word": "Tapa de asado",
-        "clues": [
-          "Horno",
-          "Paciencia",
-          "Económico",
-          "Fibras"
-        ]
-      },
-      {
-        "word": "Chulengo",
-        "clues": [
-          "Tambor",
-          "Ruedas",
-          "Lluvia",
-          "Patio"
-        ]
-      }
-    ]
-  },
-  {
-    "id": "golosinas",
-    "icon": "🍬",
-    "name": "Kiosco",
-    "items": [
-      {
-        "word": "Guaymallén",
-        "clues": [
-          "Triples",
-          "Caviar",
-          "Barato",
-          "Kiosco"
-        ]
-      },
-      {
-        "word": "Palitos de la selva",
-        "clues": [
-          "Animales",
-          "Papelito",
-          "Masticable",
-          "Tubito"
-        ]
-      },
-      {
-        "word": "Tita",
-        "clues": [
-          "Cuadrada",
-          "Limón",
-          "Amarillo",
-          "Galletita"
-        ]
-      },
-      {
-        "word": "Sugus",
-        "clues": [
-          "Colores",
-          "Cuadrado",
-          "Pegajoso",
-          "Fruta"
-        ]
-      },
-      {
-        "word": "Pico Dulce",
-        "clues": [
-          "Chupetín",
-          "Colores",
-          "Tiritas",
-          "Kiosco"
-        ]
-      },
-      {
-        "word": "Mantecol",
-        "clues": [
-          "Maní",
-          "Fiestas",
-          "Navidad",
-          "Desarmable"
-        ]
-      },
-      {
-        "word": "Dos Corazones",
-        "clues": [
-          "Poema",
-          "Bombón",
-          "Pareja",
-          "Chocolate"
-        ]
-      },
-      {
-        "word": "Bubbaloo",
-        "clues": [
-          "Centro",
-          "Globo",
-          "Goma",
-          "Corto"
-        ]
-      },
-      {
-        "word": "Naranjú",
-        "clues": [
-          "Bolsita",
-          "Congelado",
-          "Plástico",
-          "Cítrico"
-        ]
-      },
-      {
-        "word": "Jorgito",
-        "clues": [
-          "Blanco",
-          "Tradición",
-          "Colegio",
-          "Alfajor"
         ]
       }
     ]
@@ -674,200 +847,6 @@
           "Pregunta",
           "Insulto",
           "Viral"
-        ]
-      }
-    ]
-  },
-  {
-    "id": "merienda",
-    "icon": "🥐",
-    "name": "Panadería",
-    "items": [
-      {
-        "word": "Medialuna de manteca",
-        "clues": [
-          "Almíbar",
-          "Puntas",
-          "Esponjosa",
-          "Dulce"
-        ]
-      },
-      {
-        "word": "Vigilante",
-        "clues": [
-          "Larga",
-          "Crema",
-          "Membrillo",
-          "Factura"
-        ]
-      },
-      {
-        "word": "Bolas de fraile",
-        "clues": [
-          "Fritas",
-          "Azúcar",
-          "Rellenas",
-          "Pesadas"
-        ]
-      },
-      {
-        "word": "Palmera",
-        "clues": [
-          "Hojaldre",
-          "Orejas",
-          "Azúcar",
-          "Seca"
-        ]
-      },
-      {
-        "word": "Chipá",
-        "clues": [
-          "Queso",
-          "Mandioca",
-          "Calentito",
-          "Bolita"
-        ]
-      },
-      {
-        "word": "Bizcochitos",
-        "clues": [
-          "Grasa",
-          "Mate",
-          "Tardes",
-          "Saladitos"
-        ]
-      },
-      {
-        "word": "Pasta frola",
-        "clues": [
-          "Rejilla",
-          "Membrillo",
-          "Batata",
-          "Masa"
-        ]
-      },
-      {
-        "word": "Alfajor de maicena",
-        "clues": [
-          "Coco",
-          "Desgrana",
-          "Seco",
-          "Dulce"
-        ]
-      },
-      {
-        "word": "Pan Felipe",
-        "clues": [
-          "Flauta",
-          "Miga",
-          "Corteza",
-          "Sandwich"
-        ]
-      },
-      {
-        "word": "Torta frita",
-        "clues": [
-          "Lluvia",
-          "Grasa",
-          "Agujero",
-          "Masa"
-        ]
-      }
-    ]
-  },
-  {
-    "id": "bebidas",
-    "icon": "🥃",
-    "name": "Bebidas de Previa",
-    "items": [
-      {
-        "word": "Fernet con Coca",
-        "clues": [
-          "Espuma",
-          "Cordobés",
-          "Negro",
-          "Hielo"
-        ]
-      },
-      {
-        "word": "Gancia con Limón",
-        "clues": [
-          "Aperitivo",
-          "Amarillo",
-          "Batido",
-          "Suave"
-        ]
-      },
-      {
-        "word": "Vino en cartón",
-        "clues": [
-          "Tetra",
-          "Económico",
-          "Tinto",
-          "Calle"
-        ]
-      },
-      {
-        "word": "Quilmes",
-        "clues": [
-          "Sabor",
-          "Clásica",
-          "Azul",
-          "Cerveza"
-        ]
-      },
-      {
-        "word": "Smirnoff de manzana",
-        "clues": [
-          "Verde",
-          "Vodka",
-          "Dulce",
-          "Química"
-        ]
-      },
-      {
-        "word": "Pritty",
-        "clues": [
-          "Limón",
-          "Córdoba",
-          "Gaseosa",
-          "Amarillo"
-        ]
-      },
-      {
-        "word": "Mate amargo",
-        "clues": [
-          "Verde",
-          "Caliente",
-          "Costumbre",
-          "Lavado"
-        ]
-      },
-      {
-        "word": "Tereré",
-        "clues": [
-          "Jugo",
-          "Hielo",
-          "Verano",
-          "Plástico"
-        ]
-      },
-      {
-        "word": "Champagne con Speed",
-        "clues": [
-          "Boliche",
-          "Burbujas",
-          "Energizante",
-          "Amarillo"
-        ]
-      },
-      {
-        "word": "Licor de Melón",
-        "clues": [
-          "Verde",
-          "Pegajoso",
-          "Dulce",
-          "Chupito"
         ]
       }
     ]
@@ -1644,6 +1623,148 @@
           "Anteojos",
           "Seguirla",
           "Manija"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "apodos",
+    "icon": "🗣️",
+    "name": "Apodos Argentinos",
+    "items": [
+      {
+        "word": "El Gordo",
+        "clues": [
+          "Panza",
+          "Asado",
+          "Amigo",
+          "Apodo"
+        ]
+      },
+      {
+        "word": "El Flaco",
+        "clues": [
+          "Alto",
+          "Hueso",
+          "Largo",
+          "Apodo"
+        ]
+      },
+      {
+        "word": "Cabeza de Termo",
+        "clues": [
+          "Terco",
+          "Cerrado",
+          "Insulto",
+          "Apodo"
+        ]
+      },
+      {
+        "word": "Gordo Ventilador",
+        "clues": [
+          "Mueve",
+          "Aire",
+          "Pesado",
+          "Molesto"
+        ]
+      },
+      {
+        "word": "Cara de Verga",
+        "clues": [
+          "Feo",
+          "Insulto",
+          "Rostro",
+          "Despectivo"
+        ]
+      },
+      {
+        "word": "El Turco",
+        "clues": [
+          "Árabe",
+          "Comercio",
+          "Apodo",
+          "Origen"
+        ]
+      },
+      {
+        "word": "El Ruso",
+        "clues": [
+          "Rubio",
+          "Ojos",
+          "Frío",
+          "Apodo"
+        ]
+      },
+      {
+        "word": "El Negro",
+        "clues": [
+          "Cariño",
+          "Color",
+          "Amigo",
+          "Común"
+        ]
+      },
+      {
+        "word": "Gordo Chanta",
+        "clues": [
+          "Mentira",
+          "Estafa",
+          "Verso",
+          "Pesado"
+        ]
+      },
+      {
+        "word": "El Tano",
+        "clues": [
+          "Italia",
+          "Gritos",
+          "Pastas",
+          "Origen"
+        ]
+      },
+      {
+        "word": "Pecho Frío",
+        "clues": [
+          "Fútbol",
+          "Sin Sangre",
+          "Congelado",
+          "Insulto"
+        ]
+      },
+      {
+        "word": "Cornudo Consciente",
+        "clues": [
+          "Sabe",
+          "Acepta",
+          "Infiel",
+          "Pareja"
+        ]
+      },
+      {
+        "word": "Pelado",
+        "clues": [
+          "Sin Pelo",
+          "Brillo",
+          "Cabeza",
+          "Tobogán"
+        ]
+      },
+      {
+        "word": "El Chino",
+        "clues": [
+          "Supermercado",
+          "Ojos",
+          "Apodo",
+          "Origen"
+        ]
+      },
+      {
+        "word": "Pata de Lana",
+        "clues": [
+          "Amante",
+          "Escondido",
+          "Cama",
+          "Traición"
         ]
       }
     ]
