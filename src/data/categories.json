@@ -460,6 +460,51 @@
           "Noche",
           "Trofeo"
         ]
+      },
+      {
+        "word": "Maxi López",
+        "clues": [
+          "Cornudo",
+          "Amigo",
+          "Wanda",
+          "Rubio"
+        ]
+      },
+      {
+        "word": "Icardi / Icardiar",
+        "clues": [
+          "Traidor",
+          "Amigo",
+          "Wanda",
+          "Goleador"
+        ]
+      },
+      {
+        "word": "Ayala",
+        "clues": [
+          "Ratón",
+          "Defensor",
+          "Selección",
+          "Salto"
+        ]
+      },
+      {
+        "word": "Dybala",
+        "clues": [
+          "Joya",
+          "Oriana",
+          "Zurda",
+          "Roma"
+        ]
+      },
+      {
+        "word": "Mbappé",
+        "clues": [
+          "Tortuga",
+          "Francia",
+          "Traba",
+          "Rápido"
+        ]
       }
     ]
   },
@@ -653,6 +698,60 @@
           "Japito",
           "Visera",
           "Herrero"
+        ]
+      },
+      {
+        "word": "Daddy Yankee",
+        "clues": [
+          "Gasolina",
+          "Jefe",
+          "Reggaeton",
+          "Retiro"
+        ]
+      },
+      {
+        "word": "Don Omar",
+        "clues": [
+          "Rey",
+          "Danza",
+          "Reggaeton",
+          "Kuduro"
+        ]
+      },
+      {
+        "word": "Champions Liga",
+        "clues": [
+          "Cumbia",
+          "Teclado",
+          "Romántica",
+          "Dime"
+        ]
+      },
+      {
+        "word": "Fer Palacio",
+        "clues": [
+          "DJ",
+          "Remix",
+          "Gorra",
+          "Previa"
+        ]
+      },
+      {
+        "word": "La T y la M",
+        "clues": [
+          "Pa la Selección",
+          "Cumbia",
+          "Teclado",
+          "Mundial"
+        ]
+      },
+      {
+        "word": "Karina la princesita",
+        "clues": [
+          "Mentiroso",
+          "Cumbia",
+          "Dolor",
+          "Rubia"
         ]
       }
     ]
@@ -848,6 +947,105 @@
           "Insulto",
           "Viral"
         ]
+      },
+      {
+        "word": "Chiqui Tapia",
+        "clues": [
+          "AFA",
+          "Gordo",
+          "Traje",
+          "Mafia"
+        ]
+      },
+      {
+        "word": "Burlando",
+        "clues": [
+          "Abogado",
+          "Bronceado",
+          "Tele",
+          "Traje"
+        ]
+      },
+      {
+        "word": "Tinelli",
+        "clues": [
+          "Cabezón",
+          "Cuervo",
+          "Baile",
+          "Alfajor"
+        ]
+      },
+      {
+        "word": "Graciela Alfano",
+        "clues": [
+          "Vieja",
+          "Diosa",
+          "Matías",
+          "Tele"
+        ]
+      },
+      {
+        "word": "Wanda Nara",
+        "clues": [
+          "Plata",
+          "Icardi",
+          "Cuernos",
+          "Rubia"
+        ]
+      },
+      {
+        "word": "Traniela",
+        "clues": [
+          "Avión",
+          "Piloto",
+          "Traba",
+          "Viral"
+        ]
+      },
+      {
+        "word": "Therian",
+        "clues": [
+          "Animal",
+          "Raro",
+          "Identidad",
+          "TikTok"
+        ]
+      },
+      {
+        "word": "Tamara Pettinato",
+        "clues": [
+          "Sillón",
+          "Alberto",
+          "Casa",
+          "Rosada"
+        ]
+      },
+      {
+        "word": "El Bananero",
+        "clues": [
+          "Sape",
+          "Gordo",
+          "Uruguay",
+          "Youtube"
+        ]
+      },
+      {
+        "word": "Marito Baracus",
+        "clues": [
+          "Voz",
+          "Doblaje",
+          "Youtube",
+          "Lentes"
+        ]
+      },
+      {
+        "word": "Mirtha Legrand",
+        "clues": [
+          "Dinosaurio",
+          "Mesaza",
+          "Almuerzo",
+          "Inmortal"
+        ]
       }
     ]
   },
@@ -944,6 +1142,87 @@
           "Negros",
           "Reloj",
           "Odiados"
+        ]
+      },
+      {
+        "word": "Marolio",
+        "clues": [
+          "Canción",
+          "Aceite",
+          "Mate",
+          "Día"
+        ]
+      },
+      {
+        "word": "Bagley",
+        "clues": [
+          "Galletitas",
+          "Paquete",
+          "Ricas",
+          "Kiosco"
+        ]
+      },
+      {
+        "word": "Merengadas",
+        "clues": [
+          "Rosa",
+          "Malvavisco",
+          "Galletita",
+          "Dulce"
+        ]
+      },
+      {
+        "word": "Cindor",
+        "clues": [
+          "Chocolate",
+          "Leche",
+          "Botella",
+          "Fría"
+        ]
+      },
+      {
+        "word": "Sancor",
+        "clues": [
+          "Cooperativa",
+          "Leche",
+          "Queso",
+          "Vaca"
+        ]
+      },
+      {
+        "word": "Messenger / Zumbido",
+        "clues": [
+          "Chat",
+          "Viejo",
+          "Ruido",
+          "Letras"
+        ]
+      },
+      {
+        "word": "Fotolog / Floggers",
+        "clues": [
+          "Fotos",
+          "Firma",
+          "Chupín",
+          "Flequillo"
+        ]
+      },
+      {
+        "word": "Nokia 1100",
+        "clues": [
+          "Viborita",
+          "Irrompible",
+          "Linterna",
+          "Ladrillo"
+        ]
+      },
+      {
+        "word": "Atalaya",
+        "clues": [
+          "Ruta",
+          "Medialunas",
+          "Viaje",
+          "Parada"
         ]
       }
     ]
@@ -1527,6 +1806,186 @@
           "Plata",
           "Encierro"
         ]
+      },
+      {
+        "word": "Gordo gay",
+        "clues": [
+          "Puto",
+          "Pesado",
+          "Oso",
+          "Comer"
+        ]
+      },
+      {
+        "word": "Cagarse",
+        "clues": [
+          "Pedo",
+          "Olor",
+          "Pantalón",
+          "Baño"
+        ]
+      },
+      {
+        "word": "Come pebetes / menores",
+        "clues": [
+          "Jardín",
+          "Ilegal",
+          "Cárcel",
+          "Chiquilín"
+        ]
+      },
+      {
+        "word": "Come traba / Ladyboy",
+        "clues": [
+          "Sorpresa",
+          "Manija",
+          "Palermo",
+          "Bulto"
+        ]
+      },
+      {
+        "word": "Bosques de Palermo",
+        "clues": [
+          "Noche",
+          "Trava",
+          "Lagos",
+          "Auto"
+        ]
+      },
+      {
+        "word": "Limpiarse el culo con una media",
+        "clues": [
+          "Cagar",
+          "Calle",
+          "Baño",
+          "Emergencia"
+        ]
+      },
+      {
+        "word": "Raquetazo",
+        "clues": [
+          "Merca",
+          "Línea",
+          "Nariz",
+          "Duro"
+        ]
+      },
+      {
+        "word": "Liam Payne",
+        "clues": [
+          "Balcón",
+          "Caída",
+          "Cantante",
+          "Droga"
+        ]
+      },
+      {
+        "word": "Tu vieja en tanga",
+        "clues": [
+          "Madre",
+          "Bombacha",
+          "Insulto",
+          "Risa"
+        ]
+      },
+      {
+        "word": "A tu mamá le gusta sin condón",
+        "clues": [
+          "Forro",
+          "Madre",
+          "Insulto",
+          "Crudo"
+        ]
+      },
+      {
+        "word": "Kirchnerista",
+        "clues": [
+          "Chori",
+          "Plan",
+          "Kuka",
+          "Militante"
+        ]
+      },
+      {
+        "word": "Libertario",
+        "clues": [
+          "León",
+          "Casta",
+          "Peluca",
+          "Chocolatada"
+        ]
+      },
+      {
+        "word": "Barreda",
+        "clues": [
+          "Escopeta",
+          "Conchita",
+          "Dentista",
+          "Familia"
+        ]
+      },
+      {
+        "word": "Mangieri",
+        "clues": [
+          "Portero",
+          "Basura",
+          "Bolsa",
+          "Edificio"
+        ]
+      },
+      {
+        "word": "Me pica el culo",
+        "clues": [
+          "Rasca",
+          "Marrón",
+          "Lombriz",
+          "Mano"
+        ]
+      },
+      {
+        "word": "Pintor austríaco",
+        "clues": [
+          "Bigote",
+          "Guerra",
+          "Alemania",
+          "Judíos"
+        ]
+      },
+      {
+        "word": "Cámara de gas",
+        "clues": [
+          "Hitler",
+          "Ducha",
+          "Olor",
+          "Humo"
+        ]
+      },
+      {
+        "word": "Volvé a la olla salchicha",
+        "clues": [
+          "Perro",
+          "Gordo",
+          "Insulto",
+          "Meme"
+        ]
+      },
+      {
+        "word": "Morochorro / Punga",
+        "clues": [
+          "Robar",
+          "Tren",
+          "Cartera",
+          "Celular"
+        ]
+      },
+      {
+        "word": "Explotación infantil",
+        "clues": [
+          "Nenes",
+          "Taller",
+          "Trabajo",
+          "Bolivia"
+        ]
       }
     ]
   },
@@ -1623,6 +2082,132 @@
           "Anteojos",
           "Seguirla",
           "Manija"
+        ]
+      },
+      {
+        "word": "Me quiero ir con tu amiga",
+        "clues": [
+          "Rebote",
+          "Linda",
+          "Cruel",
+          "Boliche"
+        ]
+      },
+      {
+        "word": "Dame un beso",
+        "clues": [
+          "Chapar",
+          "Cara",
+          "Boca",
+          "Boliche"
+        ]
+      },
+      {
+        "word": "Pasame tu Instagram",
+        "clues": [
+          "Seguir",
+          "Chamuyo",
+          "Contacto",
+          "Fotos"
+        ]
+      },
+      {
+        "word": "Sin código",
+        "clues": [
+          "Amigo",
+          "Traición",
+          "Icardiada",
+          "Mujer"
+        ]
+      },
+      {
+        "word": "Tu hermana está re buena",
+        "clues": [
+          "Cuñado",
+          "Familiar",
+          "Mirar",
+          "Insulto"
+        ]
+      },
+      {
+        "word": "Comerse los mocos",
+        "clues": [
+          "Rebote",
+          "Solo",
+          "Mirar",
+          "Feo"
+        ]
+      },
+      {
+        "word": "Cigarrillo loco",
+        "clues": [
+          "Faso",
+          "Armado",
+          "Humo",
+          "Risa"
+        ]
+      },
+      {
+        "word": "Sed de la buena",
+        "clues": [
+          "Alcohol",
+          "Escabio",
+          "Tomar",
+          "Previa"
+        ]
+      },
+      {
+        "word": "Minita",
+        "clues": [
+          "Mujer",
+          "Boliche",
+          "Chamuyo",
+          "Piba"
+        ]
+      },
+      {
+        "word": "Beso de a 4",
+        "clues": [
+          "Chapar",
+          "Grupo",
+          "Pista",
+          "Saliva"
+        ]
+      },
+      {
+        "word": "Mirar una peli en Netflix",
+        "clues": [
+          "Coger",
+          "Casa",
+          "Chamuyo",
+          "Serie"
+        ]
+      },
+      {
+        "word": "En pedo",
+        "clues": [
+          "Borracho",
+          "Vómito",
+          "Tambalea",
+          "Escabio"
+        ]
+      },
+      {
+        "word": "Vomitar en el Uber",
+        "clues": [
+          "Multa",
+          "Asco",
+          "Borracho",
+          "Auto"
+        ]
+      },
+      {
+        "word": "Robar un vaso",
+        "clues": [
+          "Souvenir",
+          "Trago",
+          "Plástico",
+          "Boliche"
         ]
       }
     ]
@@ -1766,6 +2351,141 @@
           "Cama",
           "Traición"
         ]
+      },
+      {
+        "word": "Mosquita muerta",
+        "clues": [
+          "Falsa",
+          "Santa",
+          "Callada",
+          "Puta"
+        ]
+      },
+      {
+        "word": "La concha de la lora",
+        "clues": [
+          "Enojo",
+          "Grito",
+          "Pájaro",
+          "Insulto"
+        ]
+      },
+      {
+        "word": "Tarado",
+        "clues": [
+          "Boludo",
+          "Gil",
+          "Idiota",
+          "Insulto"
+        ]
+      },
+      {
+        "word": "Zángano",
+        "clues": [
+          "Vago",
+          "Mantenido",
+          "Abeja",
+          "Paja"
+        ]
+      },
+      {
+        "word": "Sopla nuca / Seca nuca",
+        "clues": [
+          "Atrás",
+          "Bicicleta",
+          "Puto",
+          "Viento"
+        ]
+      },
+      {
+        "word": "Fantasma",
+        "clues": [
+          "Mentiroso",
+          "Sábana",
+          "Invento",
+          "Aparece"
+        ]
+      },
+      {
+        "word": "Pibardo",
+        "clues": [
+          "Pibe",
+          "Joven",
+          "Twitch",
+          "Nene"
+        ]
+      },
+      {
+        "word": "Sopla quena",
+        "clues": [
+          "Flauta",
+          "Puto",
+          "Oral",
+          "Instrumento"
+        ]
+      },
+      {
+        "word": "Come gordas",
+        "clues": [
+          "Heladera",
+          "Hambre",
+          "Boliche",
+          "Amigo"
+        ]
+      },
+      {
+        "word": "Mañero",
+        "clues": [
+          "Llorón",
+          "Capricho",
+          "Vueltas",
+          "Pesado"
+        ]
+      },
+      {
+        "word": "Pajero",
+        "clues": [
+          "Mano",
+          "Vago",
+          "Lento",
+          "Paja"
+        ]
+      },
+      {
+        "word": "Flequillo",
+        "clues": [
+          "Corte",
+          "Rocha",
+          "Feminista",
+          "Frente"
+        ]
+      },
+      {
+        "word": "Cringe",
+        "clues": [
+          "Vergüenza",
+          "Ajena",
+          "Raro",
+          "Asquito"
+        ]
+      },
+      {
+        "word": "Virgo",
+        "clues": [
+          "Tetris",
+          "PC",
+          "Incel",
+          "Nunca"
+        ]
+      },
+      {
+        "word": "A los pedos",
+        "clues": [
+          "Rápido",
+          "Apurado",
+          "Corriendo",
+          "Auto"
+        ]
       }
     ]
   },
@@ -1862,6 +2582,596 @@
           "Cara",
           "Japón",
           "Lluvia"
+        ]
+      },
+      {
+        "word": "Vender semen",
+        "clues": [
+          "Frasco",
+          "Plata",
+          "Fertilidad",
+          "Clínica"
+        ]
+      },
+      {
+        "word": "Turca",
+        "clues": [
+          "Tetas",
+          "Frotar",
+          "Medio",
+          "Acabar"
+        ]
+      },
+      {
+        "word": "Olor ahí abajo",
+        "clues": [
+          "Pescado",
+          "Sucio",
+          "Lavar",
+          "Higiene"
+        ]
+      },
+      {
+        "word": "Lluvia dorada",
+        "clues": [
+          "Pis",
+          "Amarillo",
+          "Fetiche",
+          "Meo"
+        ]
+      },
+      {
+        "word": "Swinger",
+        "clues": [
+          "Parejas",
+          "Intercambio",
+          "Llaves",
+          "Club"
+        ]
+      },
+      {
+        "word": "Ajusticiarse el ganso",
+        "clues": [
+          "Pajearse",
+          "Mano",
+          "Ahorcar",
+          "Solo"
+        ]
+      },
+      {
+        "word": "Dos dedos",
+        "clues": [
+          "Meter",
+          "Mano",
+          "Agujero",
+          "Humedad"
+        ]
+      },
+      {
+        "word": "Duchaja",
+        "clues": [
+          "Agua",
+          "Bañadera",
+          "Solo",
+          "Jabón"
+        ]
+      },
+      {
+        "word": "Vladimir",
+        "clues": [
+          "Paja",
+          "Dormir",
+          "Ruso",
+          "Noche"
+        ]
+      },
+      {
+        "word": "Todos contra todos",
+        "clues": [
+          "Orgia",
+          "Montón",
+          "Descontrol",
+          "Cama"
+        ]
+      },
+      {
+        "word": "Tragar",
+        "clues": [
+          "Leche",
+          "Boca",
+          "Fondo",
+          "Pasar"
+        ]
+      },
+      {
+        "word": "Escupir",
+        "clues": [
+          "Asco",
+          "Boca",
+          "Tirar",
+          "Suelo"
+        ]
+      },
+      {
+        "word": "Zanja abierta",
+        "clues": [
+          "Culo",
+          "Raya",
+          "Caída",
+          "Pantalón"
+        ]
+      },
+      {
+        "word": "Only fans",
+        "clues": [
+          "Fotos",
+          "Plata",
+          "Suscripción",
+          "Desnuda"
+        ]
+      },
+      {
+        "word": "Milf",
+        "clues": [
+          "Madre",
+          "Vieja",
+          "Deseo",
+          "Señora"
+        ]
+      },
+      {
+        "word": "Sugar mommy",
+        "clues": [
+          "Vieja",
+          "Plata",
+          "Mantener",
+          "Regalos"
+        ]
+      },
+      {
+        "word": "Putero",
+        "clues": [
+          "Cabarute",
+          "Gato",
+          "Pagar",
+          "VIP"
+        ]
+      },
+      {
+        "word": "Cabaret",
+        "clues": [
+          "Putas",
+          "Noche",
+          "Boca",
+          "Luces"
+        ]
+      },
+      {
+        "word": "Pete en el jacuzzi",
+        "clues": [
+          "Agua",
+          "Burbujas",
+          "Oral",
+          "Hotel"
+        ]
+      },
+      {
+        "word": "Happy end",
+        "clues": [
+          "Masaje",
+          "Final",
+          "Acabar",
+          "Chino"
+        ]
+      },
+      {
+        "word": "Se la están enterrando",
+        "clues": [
+          "Coger",
+          "Fondo",
+          "Adentro",
+          "Pozo"
+        ]
+      },
+      {
+        "word": "Comerte una chota",
+        "clues": [
+          "Pija",
+          "Boca",
+          "Insulto",
+          "Tragar"
+        ]
+      },
+      {
+        "word": "Sed de verganza",
+        "clues": [
+          "Sed",
+          "Pija",
+          "Juego",
+          "Venganza"
+        ]
+      },
+      {
+        "word": "A cable pelado",
+        "clues": [
+          "Forro",
+          "Sin",
+          "Riesgo",
+          "Preñar"
+        ]
+      },
+      {
+        "word": "69",
+        "clues": [
+          "Número",
+          "Vuelta",
+          "Oral",
+          "Mutuo"
+        ]
+      },
+      {
+        "word": "2 contra 2",
+        "clues": [
+          "Swinger",
+          "Parejas",
+          "Cuatro",
+          "Cama"
+        ]
+      },
+      {
+        "word": "Coger en el auto",
+        "clues": [
+          "Coche",
+          "Incómodo",
+          "Vidrios",
+          "Estacionado"
+        ]
+      },
+      {
+        "word": "Trío con tu vieja",
+        "clues": [
+          "Madre",
+          "Tres",
+          "Cama",
+          "Insulto"
+        ]
+      },
+      {
+        "word": "Pito duro",
+        "clues": [
+          "Erección",
+          "Palo",
+          "Carpa",
+          "Mañana"
+        ]
+      },
+      {
+        "word": "Leche en la cara",
+        "clues": [
+          "Bukkake",
+          "Blanco",
+          "Ojos",
+          "Acabar"
+        ]
+      },
+      {
+        "word": "Estar roto",
+        "clues": [
+          "Culo",
+          "Dolor",
+          "Coger",
+          "Caminar"
+        ]
+      },
+      {
+        "word": "Nudo de globo",
+        "clues": [
+          "Culo",
+          "Arrugado",
+          "Marrón",
+          "Chico"
+        ]
+      },
+      {
+        "word": "Pito flaco",
+        "clues": [
+          "Fideo",
+          "Finito",
+          "Pija",
+          "Decepción"
+        ]
+      },
+      {
+        "word": "Beso de Poseidón",
+        "clues": [
+          "Inodoro",
+          "Agua",
+          "Salpicada",
+          "Cagar"
+        ]
+      },
+      {
+        "word": "Frotar la lámpara",
+        "clues": [
+          "Paja",
+          "Genio",
+          "Mano",
+          "Fricción"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "nostalgia",
+    "icon": "🕹️",
+    "name": "Infancia Nostálgica",
+    "items": [
+      {
+        "word": "Magic Kids",
+        "clues": [
+          "Canal",
+          "Dibujos",
+          "Cable",
+          "Noventa"
+        ]
+      },
+      {
+        "word": "A jugar con Hugo",
+        "clues": [
+          "Teléfono",
+          "Botones",
+          "Trol",
+          "Gaby"
+        ]
+      },
+      {
+        "word": "Kito Pizzas",
+        "clues": [
+          "Reparto",
+          "Juego",
+          "Magic",
+          "Moto"
+        ]
+      },
+      {
+        "word": "Counter Strike",
+        "clues": [
+          "Cíber",
+          "Tiros",
+          "Terrorista",
+          "Rush"
+        ]
+      },
+      {
+        "word": "Goku",
+        "clues": [
+          "Pelo",
+          "Nube",
+          "Kamehameha",
+          "Sayayin"
+        ]
+      },
+      {
+        "word": "Pikachu",
+        "clues": [
+          "Rayo",
+          "Amarillo",
+          "Rata",
+          "Pokébola"
+        ]
+      },
+      {
+        "word": "Cartoon Network",
+        "clues": [
+          "Canal",
+          "Dibujos",
+          "Cuadros",
+          "Cable"
+        ]
+      },
+      {
+        "word": "La Vaca y el Pollito",
+        "clues": [
+          "Hermanos",
+          "Rojo",
+          "Dibujo",
+          "Traseros"
+        ]
+      },
+      {
+        "word": "Las Chicas Superpoderosas",
+        "clues": [
+          "Tres",
+          "Vuelo",
+          "Profesor",
+          "Azúcar"
+        ]
+      },
+      {
+        "word": "Billiken / Anteojito",
+        "clues": [
+          "Revista",
+          "Escuela",
+          "Recortar",
+          "Kiosco"
+        ]
+      },
+      {
+        "word": "Piñón Fijo",
+        "clues": [
+          "Payaso",
+          "Chu",
+          "Bicicleta",
+          "Córdoba"
+        ]
+      },
+      {
+        "word": "Pobre Diabla",
+        "clues": [
+          "Novela",
+          "Lágrimas",
+          "Tarde",
+          "Drama"
+        ]
+      },
+      {
+        "word": "Coraje el perro cobarde",
+        "clues": [
+          "Rosa",
+          "Susto",
+          "Muriel",
+          "Dibujo"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "fantasma",
+    "icon": "🚘",
+    "name": "Cosas de Fantasma",
+    "items": [
+      {
+        "word": "Bora",
+        "clues": [
+          "Rojo",
+          "Plancha",
+          "Fantasma",
+          "Corte"
+        ]
+      },
+      {
+        "word": "Vento",
+        "clues": [
+          "Gitanos",
+          "Sedán",
+          "Rápido",
+          "Alemán"
+        ]
+      },
+      {
+        "word": "Honda Wave",
+        "clues": [
+          "Moto",
+          "Rocho",
+          "Corte",
+          "Delivery"
+        ]
+      },
+      {
+        "word": "Tirar corte",
+        "clues": [
+          "Moto",
+          "Ruido",
+          "Escape",
+          "Fantasma"
+        ]
+      },
+      {
+        "word": "Andar en una Amarok",
+        "clues": [
+          "Chato",
+          "Campo",
+          "Plata",
+          "Gasoil"
+        ]
+      },
+      {
+        "word": "Música al palo",
+        "clues": [
+          "Volumen",
+          "Parlante",
+          "Auto",
+          "Sordo"
+        ]
+      },
+      {
+        "word": "Mameluco reflectivo",
+        "clues": [
+          "Trabajo",
+          "Noche",
+          "Neón",
+          "Obrero"
+        ]
+      },
+      {
+        "word": "Perfume Invictus",
+        "clues": [
+          "Olor",
+          "Copa",
+          "Boliche",
+          "Caro"
+        ]
+      },
+      {
+        "word": "Bolsito cruzado",
+        "clues": [
+          "Pecho",
+          "Rocho",
+          "Cierre",
+          "Guardar"
+        ]
+      },
+      {
+        "word": "Cadena de oro falsa",
+        "clues": [
+          "Cuello",
+          "Pintado",
+          "Verde",
+          "Fantasma"
+        ]
+      },
+      {
+        "word": "Gorra visera plana",
+        "clues": [
+          "Cabeza",
+          "Original",
+          "Punga",
+          "Estilo"
+        ]
+      },
+      {
+        "word": "Polarizado trucho",
+        "clues": [
+          "Vidrio",
+          "Negro",
+          "Burbujas",
+          "Multa"
+        ]
+      },
+      {
+        "word": "Tener la nave lavada",
+        "clues": [
+          "Brillo",
+          "Domingo",
+          "Balde",
+          "Auto"
+        ]
+      },
+      {
+        "word": "Ir pistear",
+        "clues": [
+          "Rápido",
+          "Avenida",
+          "Semáforo",
+          "Picada"
+        ]
+      },
+      {
+        "word": "Parlantes en el baúl",
+        "clues": [
+          "Madera",
+          "Graves",
+          "Retumbar",
+          "Abierto"
+        ]
+      },
+      {
+        "word": "Luces xenón",
+        "clues": [
+          "Blanco",
+          "Ciegan",
+          "Noche",
+          "Auto"
         ]
       }
     ]
